@@ -307,8 +307,27 @@ h2 {
 
 footer {
 	text-align: center;
-	padding: 80px;
+	padding: 70px;
 	font-weight: lighter;
 	background-color: #ececec;
+}
+
+@media screen and (max-width: 800px) {
+	footer {
+		padding: 40% 0;
+	}
+	.output {
+		text-align: center;
+		font-family: "Source Code Pro", monospace;
+		color: white;
+		position: relative;
+		top: 220px;
+		font-size: 20px;
+		padding-bottom: 30%;
+	}
+	.pfp{
+		width: 40%
+	}
+
 }
 
