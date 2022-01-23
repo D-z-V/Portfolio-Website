@@ -1,0 +1,314 @@
+canvas {
+  display: block;
+}
+
+#particles-js {
+  width: 100%;
+  height: 82%;
+  background: #1B262C;
+  position: absolute;
+
+}
+
+.text {
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translate(50%,-50%);
+	color: #fff;
+	max-width: 90%;
+	padding: 2em 3em;
+	background: rgba(0, 0, 0, 0.4);
+	text-shadow: 0px 0px 2px #131415;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-size: 2.25em;
+	font-weight: 700;
+	letter-spacing: -1px;
+}
+
+a,
+a:visited {
+	color: #e34234;
+	transition: 0.25s;
+}
+
+a:hover,
+a:focus {
+	color: #ba160c;
+}
+
+  
+.output {
+	text-align: center;
+	font-family: "Source Code Pro", monospace;
+	color: white;
+	position: relative;
+	top: 220px;
+	font-size: 20px;
+
+}
+.output h1 {
+	font-size: 35px;
+}
+
+/* Cursor Styling */
+.cursor::after {
+	content: "";
+	display: inline-block;
+	margin-left: 3px;
+	background-color: #41FF00;
+	animation-name: blink;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+}
+
+h1.cursor::after {
+	height: 24px;
+	width: 13px;
+}
+
+p.cursor::after {
+	height: 13px;
+	width: 6px;
+}
+
+@keyframes blink {
+0% {
+    opacity: 1;
+}
+49% {
+    opacity: 1;
+}
+50% {
+    opacity: 0;
+}
+100% {
+    opacity: 0;
+}
+}
+
+.nav-item {
+	padding-right: 30px !important;
+	font-size: 20px !important;
+	padding-top: 10px;
+
+}
+
+.navbar-brand{
+	padding-left: 30px;
+}
+
+.dropdown-item {
+	color: black !important;
+}
+
+.navbar {
+	height: min-content;
+	background-color: #1B262C !important;
+}
+
+.row {
+    text-align: center;
+    padding-top: 100px;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 30px;
+}
+
+
+.col col-lg-4 col-md-4 col-sm-12 {
+    padding-top: 70px;
+}
+
+
+.col {
+    padding-bottom: 50px;
+}
+
+.icon:hover {
+    color: #006ba5;
+}
+
+
+
+.container {
+    padding-bottom: 0px !important;
+}
+
+
+
+.ch {
+	font-size: 100px;
+	padding-bottom: 20px;
+}
+
+.row {
+	padding-top: 200px;
+}
+
+.s-img {
+	height: 100%;
+	width: 100%;
+}
+
+.carousel-caption {
+	font-weight: bolder;
+}
+
+
+.c1 {
+    position: absolute;
+    left: 60%;
+    top: 10%;
+}
+
+.c2 {
+    position: absolute;
+    bottom: 60%;
+    left: 30%;
+}
+
+.m {
+    position: relative;
+}
+
+.gdev {
+    width: 30%;
+    float: left;
+    margin-right: 35px;
+}
+
+.skill-row1,.skill-row2 {
+    width: 70%;
+    margin: 70px auto 70px auto;
+    text-align: left;
+}
+
+.profile {
+    width: 45%;
+	position: relative;
+    margin: 30px auto 30px auto;   
+}
+
+.pfp {
+    width: 30%;
+}
+
+.roc {
+    width: 30%;
+    float: right;
+	padding-left: 5%;
+
+}
+
+.middle-container,.middle-container1 {
+	padding-top: 2%;
+	text-align: center;
+}
+
+.skills {
+	background:url(../images/skb1.png);
+	padding-top: 7%;
+	color: #fff;
+	padding-bottom: 7%;
+}
+
+h2 {
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 500;
+	font-size: 40px;
+}
+
+.space {
+	margin: 12%;
+}
+
+.sten {
+	padding-top: 5%;
+}
+
+.ket {
+	width: 25%;
+    float: left;
+    margin-right: 35px;
+}
+
+.ket1 {
+	width: 25%;
+	float: left;
+	margin-right: 35px;
+}
+
+.ket2 {
+	width: 22%;
+	float: right;
+	margin-right: 35px;
+}
+
+
+
+.lang {
+	padding-top: 4%;
+	background-color: #3282B8;
+	text-align: center;
+	font-size: 70px;
+}
+
+.eh {
+	padding: 3% 1%;
+	text-align: center;
+
+}
+
+.eh1,.eh2,.eh3,.eh4,.eh5 {
+	padding-right: 3%;
+	padding-left: 3%;
+}
+
+.eh1:hover {
+	color: lightblue;
+}
+
+.eh2:hover {
+    color: rgb(207, 121, 121);
+} 
+
+.eh3:hover {
+    color: yellow;
+} 
+
+.eh4:hover {
+    color: red;
+} 
+
+#socials {
+	background: url(../images/sff.jpg);
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 15%;
+	font-size: 45px;
+}
+
+.el1,.el2,.el3,.el4 {
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+#e{
+	padding-bottom: 7%;
+}
+
+.end {
+	margin: 0;
+}
+
+footer {
+	text-align: center;
+	padding-top: 1%;
+	font-weight: lighter;
+}
+
+

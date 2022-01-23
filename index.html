@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&family=PT+Sans&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Dev | D3V</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="">
+          <img src="images/logo.png" alt="" width="37" height="37">
+          
+        </a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/D-z-V" target="_blank" ><i class="fab fa-github"></i> GitHub</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fas fa-project-diagram"></i> Projects
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">This Website</a></li>
+                <li><a class="dropdown-item" href="#">RR</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">APIs</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#socials"><i class="fas fa-users"></i> Socials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled"><i class="fas fa-blog"></i> Blog</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+      <div id="particles-js">
+        <script tpye="text/javascript" src="frameworks/particles.js"></script>
+        <script tpye="text/javascript" src="frameworks/app.js"></script>
+      </div>
+
+      <div class="output" id="output">
+        <h1 class="cursor"></h1>
+        <p></p>
+      </div>
+      <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><script  src="./script.js"></script>
+
+      <div class="middle-container">
+        <div class="profile">
+          <img src="images/pfp.png" alt="" class="pfp">
+          <div class="ptext">
+            <br>
+            <h2>Hello.</h2>
+            <p>I'm a student at NIT Trichy pursuing B.Tech in Instrumentation and Control Engineering, Batch of 25.</p>
+          </div>
+        </div>
+        <div class="skills">
+          <h2 class="st">My Skills</h2>
+          <div class="skill-row1">
+            <img class="gdev" src="images/skill.gif" alt="">
+            <h3>Web Development</h3>
+            <p>Using my knowledge of HTML, CSS and javascript. I can buid amazing websites, Just like this. Meanwhile I'm working on learning back-end development. You can find the source code for this website under the projects section.</p>
+          </div>
+          <div class="space"></div>
+          <div class="skill-row2">
+            <img class="roc" src="images/droid.gif" alt="">
+            <h3>Android Development</h3>
+            <p>Using Java, I can build Android apps in the Android Studio IDE. I'm currently working on this skill. I've also built quite a few APIs</p>
+          </div>
+        </div>
+        <h2 class="sten">Engineering</h2>
+        <div class="eng">
+          <div class="skill-row2" id="e">
+            <img class="ket" src="images/skill2.gif" alt="">
+            <h3>Aerospace</h3>
+            <p>I'v always wanted to work in this industry. I try to learn as mush as I can about spaceflight from the internet. Here are some of my favorite moments from the industry :)</p>
+          </div>          
+        </div>
+      </div>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="13000">
+            <img src="images/fh2.gif" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Falcon Heavy Test Flight</h5>
+              <p>The most beautiful landing.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="6000">
+            <img src="images/st-end2.gif" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Starship Full-Stack</h5>
+              <p>This drone shot tho.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <div class="middle-container1">
+        <div class="skill-row1">
+          <img class="ket1" src="images/arduino1.png" alt="">
+          <h3>ARDUINO</h3>
+          <p>Worked with Arduino during my high school days. Built quite a few projects like a Line Follower Robot, An autonomous Traffic Signal System. </p>
+        </div>
+        <div class="space"></div>
+        <div class="skill-row2">
+          <img class="ket2" src="images/Matlabp.png" alt="">
+          <h3>MATLAB</h3>
+          <p>I'm learning its fundamentals, after attending a few workshops I find this software to be a really useful tool for its application in Data science and Image Prosessing.</p>
+        </div>             
+      </div>
+      <div class="lang">
+        <h3>Familiar programming languages</h3>
+        <div class="eh">
+          <i class="eh1 fab fa-python"></i>
+          <i class="eh2 fab fa-java"></i>
+          <i class="eh3 fab fa-js"></i>
+          <i class="eh4 fab fa-html5"></i>
+        </div>
+        <section id="socials">
+          <h3>My Socials</h3>
+          <div class="el">
+            <a href="https://www.instagram.com/sn1pe._/" target="_blank"><i class="el1 fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/dev-bhandari-51b462227/" target="_blank"><i class="el2 fab fa-linkedin"></i></a>
+            <a href="https://steamcommunity.com/id/devgames100/" target="_blank"><i class="el3 fab fa-steam"></i></a>
+            <a href="https://www.reddit.com/user/__D3V__" target="_blank"><i class="el4 fab fa-reddit"></i></a>
+          </div>
+        </section>
+      </div>
+      <footer>
+        <p class="end">2022 Dev Bhandari</p>
+        <p>Made with HTML, CSS, Bootstrap, Font Awesome and lots of ♥</p> 
+      </footer>
+      <script>
+        ScrollReveal({
+          reset: true,
+          distance: '200px',
+          duration: 700,
+          delay: 350
+        });
+        ScrollReveal().reveal('.ptext',{delay: 0, origin: 'bottom'});
+      </script>
+      <script>
+        ScrollReveal({
+          reset: true,
+          distance: '200px',
+          duration: 2000,
+          delay: 300
+        });
+        ScrollReveal().reveal('.ptext',{delay: 0, origin: 'bottom'});
+        ScrollReveal().reveal('.gdev',{delay: 400, origin: 'left'});
+        ScrollReveal().reveal('.skill-row1',{delay: 200, origin: 'right',interval: '200'});
+        ScrollReveal().reveal('.skill-row2',{delay: 200, origin: 'left',interval: '200'});
+        ScrollReveal().reveal('.roc',{delay: 200, origin: 'right'});
+        ScrollReveal().reveal('.ket',{delay: 200, origin: 'bottom'});
+        ScrollReveal().reveal('.carousel',{delay: 200, origin: 'bottom'});
+        ScrollReveal().reveal('.col',{delay: 200, origin: 'bottom'});
+        ScrollReveal().reveal('.eh',{delay: 200, origin: 'top'});
+        ScrollReveal().reveal('.el1,.el2',{delay: 200, origin: 'left'});
+        ScrollReveal().reveal('.el3,.el4',{delay: 200, origin: 'right'});
+      </script>
+      <script>
+        ScrollReveal({
+          reset: true,
+          distance: '400px',
+          duration: 2100,
+          delay: 310
+        });
+        ScrollReveal().reveal('.ket1',{delay: 200, origin: 'left'});
+        ScrollReveal().reveal('.ket2',{delay: 200, origin: 'right'});
+      </script>  
+  </body>
+</html>
