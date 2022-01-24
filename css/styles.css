@@ -314,7 +314,7 @@ footer {
 
 @media screen and (max-width: 1200px) {
 	footer {
-		padding: 40% 0;
+		padding: 25% 5%;
 	}
 	.output {
 		text-align: center;
@@ -326,7 +326,7 @@ footer {
 		padding-bottom: 30%;
 	}
 	.pfp{
-		width: 40%
+		width: 40%;
 	}
 }
 
@@ -344,7 +344,7 @@ footer {
 		padding-bottom: 22%;
 	}
 	.pfp{
-		width: 40%
+		width: 40%;
 	}
 
 }
