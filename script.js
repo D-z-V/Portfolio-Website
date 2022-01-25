@@ -6,7 +6,7 @@ var i = 0,
 
 
 var textArray = [
-  "Hi There !", 
+  "Hi There!", 
   "Welcome to my website :)",
   "I'm Dev " 
 ];
