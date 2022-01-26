@@ -305,16 +305,18 @@ h2 {
 	margin: 0;
 }
 
+
 footer {
 	text-align: center;
-	padding: 70px;
+	padding: 2%;
 	font-weight: lighter;
 	background-color: #ececec;
 }
 
-@media screen and (max-width: 1200px) {
+
+@media screen and (max-width: 800px) {
 	footer {
-		padding: 15% 5%;
+		padding: 7% 5%;
 	}
 	.output {
 		text-align: center;
@@ -332,7 +334,7 @@ footer {
 
 @media screen and (max-width: 1200px) and (min-width: 801px) {
 	footer {
-		padding: 10% 0;
+		padding: 7% 0;
 	}
 	.output {
 		text-align: center;
@@ -341,11 +343,25 @@ footer {
 		position: relative;
 		top: 220px;
 		font-size: 20px;
-		padding-bottom: 22%;
+		padding-bottom: 1%;
 	}
 	.pfp{
 		width: 45%;
 	}
-
 }
-
+@media screen and (max-height: 500px) {		
+	footer {
+		padding: 5% 0;
+	}
+	.output {
+		text-align: center;
+		font-family: "Source Code Pro", monospace;
+		color: white;
+		position: relative;
+		top: 110px;
+		font-size: 20px;
+	}
+	.pfp{
+		width: 35%;
+	}
+}
