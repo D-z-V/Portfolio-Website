@@ -314,6 +314,9 @@ footer {
 	font-size: 14px;
 }
 
+video {
+	width: 100% !important;
+}
 
 @media screen and (max-width: 800px) {
 	footer {
