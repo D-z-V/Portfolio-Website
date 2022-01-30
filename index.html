@@ -24,6 +24,14 @@
     </script>
   </head>
   <body>
+    <script lang="javascript">
+      window.onload = function() {
+        if(!window.location.hash) {
+          window.location = window.location + '#loaded';
+          window.location.reload();
+        }
+      }
+    </script>
     <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -97,6 +105,14 @@
             </div>
           </div>
         </div>
+        <script lang="javascript">
+          window.onload = function() {
+            if(!window.location.hash) {
+              window.location = window.location + '#loaded';
+              window.location.reload();
+            }
+          }
+        </script>
         <h2 class="sten">Engineering</h2>
         <div class="eng">
           <div class="skill-row2" id="e">
